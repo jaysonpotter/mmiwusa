@@ -1,0 +1,313 @@
+hr {
+  background-color: white;
+}
+iframe {
+  /* display: block; */
+  /* margin: 0 auto; */
+  /* margin-bottom: 20px; */
+}
+body {
+  /* background: linear-gradient(90deg,rgb(255,215,45),rgb(255, 250, 205), rgb(255,215,45));  */
+/* background-color:rgb(255,215,45); */
+ background-color:rgb(153,31,0);
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=rgb(153,31,0), endColorstr=rgb(255, 153, 51));
+ background-image:-moz-linear-gradient(left, rgb(153,31,0) 0%, rgb(255, 153, 51) 35%,rgb(255, 153, 51) 65%,rgb(153,31,0) 100%);
+background-image:linear-gradient(left, rgb(153,31,0) 0%, rgb(255, 153, 51) 35%,rgb(255, 153, 51) 65%,rgb(153,31,0) 100%);
+background-image:-webkit-linear-gradient(left, rgb(153,31,0) 0%, rgb(255, 153, 51) 35%,rgb(255, 153, 51) 65%,rgb(153,31,0) 100%);
+background-image:-o-linear-gradient(left, rgb(153,31,0) 0%, rgb(255, 153, 51) 35%,rgb(255, 153, 51) 65%,rgb(153,31,0) 100%);
+background-image:-ms-linear-gradient(left, rgb(153,31,0) 0%, rgb(255, 153, 51) 35%,rgb(255, 153, 51) 65%,rgb(153,31,0) 100%);
+ background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,rgb(153,31,0)), color-stop(35%,rgb(255, 153, 51)),color-stop(65%,rgb(255, 153, 51)),color-stop(100%,rgb(153,31,0)));
+}
+
+.subheader {
+  font-family: Cinzel, sans-serif !important;
+  color: rgb(255,215,45);
+  text-shadow: 1px 1px #a67c00 ;
+  max-width: 960px;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+
+  .subheader {
+    font-size: 16px;
+  }
+}
+#compassion-quote {
+  font-weight: 600;
+  font-size: 36px;
+}
+@media only screen and (max-width: 600px) {
+
+  #compassion-quote {
+    font-size: 26px;
+  }
+
+}
+
+.nav {
+  margin-left: 35px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .nav {
+    margin-left: 0px;
+  }
+
+}
+.container hr {
+  border: 0;
+ height: 2px;
+ background-image: -webkit-linear-gradient(left, #ffcf40, #654321, #ffcf40 );
+ background-image: -moz-linear-gradient(left, #ffcf40, #654321, #ffcf40 );
+ background-image: -ms-linear-gradient(left, #ffcf40, #654321, #ffcf40 );
+ background-image: -o-linear-gradient(left, #ffcf40, #654321, #ffcf40 );
+}
+.content {
+  font-family: Roboto Condensed, sans-serif !important;
+}
+.content p {
+  color: #2b1d0e;
+}
+.image-border {
+  padding: 0px 0px !important;
+  /*border: 3px solid #654321;*/
+  border: 3px solid #2b1d0e;
+  background-color: #ffcf40;
+}
+
+#navlist {
+  display: inline-block;
+  width: 100%;
+}
+
+#navlist ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navlist li {
+    width: 12.5%;
+    margin-right: 7%;
+    float: left;
+    list-style-type: none;
+}
+
+#navlist li a {
+    display: block;
+    color: #2b1d0e;
+    font-weight: 550;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  #navlist li a {
+    font-size: .8em;
+  }
+}
+
+#navlist li a:hover {
+    background-color: #ffcf40;
+}
+
+#logo-banner {
+  display: block;
+  border: 3px solid #2b1d0e;
+  padding: 10px;
+  max-width: 746px;
+  max-height: 257px;
+  margin: 10px auto;
+  }
+
+@media only screen and (max-width: 600px) {
+    #logo-banner {
+      max-width: 400px;
+      max-height: 137px;
+      }
+}
+#banner {
+  margin: 10px auto;
+}
+.row {
+  padding: 10px 10px;
+}
+.video-frame {
+  display: block;
+  margin: 0 auto;
+  width: 606px;
+  border: 3px solid #2b1d0e;
+}
+.video-frame2 {
+  display: block;
+  margin: 3px auto;
+  background-color: black;
+  width: 506px;
+  border: 3px solid #2b1d0e;
+}
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 300px;
+  }
+  .video-frame2 {
+    width: 306px;
+  }
+}
+.mailchimp-archive {
+  display: block;
+  margin: 0 auto;
+  width: 806px;
+  border: 3px solid #2b1d0e;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("../img/women-at-the-church.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+  .parallax1 {
+    display: none;
+  }
+  #paralax-annotation {
+    display: none;
+  }
+}
+.parallax1 h1 {
+  text-align: center;
+  padding-top: 120px;
+  color: #ffcf40;
+}
+.image-left {
+  display: inline;
+  width: 100%;
+  margin: 0 auto;
+}
+.image-right {
+  display: inline;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  padding-top: 15px !important;
+  padding-bottom: 10px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  background-color: transparent !important;
+
+}
+.checklist {
+  font-size: 1.5em;
+  padding-top: 7px;
+  border: 3px solid #2b1d0e;
+  background-color: #ffcf40;
+}
+#checklist1 {
+  margin-top: 35px;
+}
+#checklist2 {
+  margin-top: 15px;
+}
+.checklist ul {
+  list-style: none;
+  /* list-style-position: inside;
+  list-style-image: url("../img/leaf-icon.png"); */
+}
+
+/* .checklist ul li:before {
+  content: '✓';
+} */
+.checklist li:before {
+  content: "\f06c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+.center-message {
+  text-align: center;
+  padding: 20px 5%;
+  margin: 30px auto !important;
+}
+.center-message h3 {
+  padding: 20px 20px;
+  border: 7px solid #2b1d0e;
+  background-color: #ffcf40;
+}
+
+/* Buttons */
+.cmk-buttons {
+  font-weight: 500;
+  letter-spacing: 0.1em !important;
+  padding: 15px 15px !important;
+  font-size: 16px !important;
+}
+
+/* Social Media Icons */
+
+.social-media-bar {
+   left: -20px;
+   position: fixed;
+   top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .social-media-bar {
+    visibility: hidden;
+  }
+}
+.social-media-bar li {
+  list-style: none;
+}
+.fa {
+  padding: 5px;
+  font-size: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-patreon {
+  background: white;
+  color: white;
+}

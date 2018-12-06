@@ -1,0 +1,18 @@
+.about-page img {
+  /* max-width: 60%; */
+}
+.about-page h2 {
+  margin-left: 15px;
+}
+.popup {
+  padding: 15px;
+  margin: 25px 50px;
+  background-color: rgba(254,254,254, 0.9);
+}
+.bio-pic {
+  max-width: 71%;
+}
+.staff-container {
+  padding: 0 60px;
+  margin: 0 80px;
+}
