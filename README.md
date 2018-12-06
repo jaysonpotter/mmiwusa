@@ -4,12 +4,14 @@
 
 #### Web Developer: Carlos Munoz Kampff & Jayson Potter
 
-#### Website for MMIWUSA non-profit. This is a static page application that will be converted to Wordpress when we get our non-profit hosting and domain.
+#### Website for MMIWUSA non-profit. This is a static page application.
 
-###To Do List:
+### To Do List:
 
 |Status|Spec|Page|                
 |------|----|----|
 |TODO| Add initial content to home, mmiw stories, active cases, events, facts & news, and contact & donate pages. | "..." |
-|TODO| Create a mailchimp account for Deborah and add the link to the bottom of index. | Index |
-|TODO| Create a Google Form in Deborahs Google account for family members to submit cases, add the form to the contact page and links to it elsewhere. | Contact & Donate |
+|TODO| Jayson, setup gh pages please. I don't think I can from my end, unless I make a different repo.| |
+|TODO| Modify about page. | about |
+|TODO| Create a Mailchimp account for Deborah and add the link to the bottom of index. | Index |
+|TODO| Create a Google Form in Deborah's Google account for family members to submit cases, add the form to the contact page and links to it elsewhere. | Contact & Donate |
