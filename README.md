@@ -1,6 +1,6 @@
 ## Missing and Murdered Indigenous Women USA
 
-##### address: https://elmunoz42.github.io/mmiwusa
+##### address: https://jaysonpotter.github.io/mmiwusa
 
 #### Web Developer: Carlos Munoz Kampff
 
