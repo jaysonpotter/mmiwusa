@@ -1,10 +1,10 @@
 ## Missing and Murdered Indigenous Women USA
 
-##### address: https://elmunoz42.github.io/mmiwusa
+##### address: https://jaysonpotter.github.io/mmiwusa
 
-#### Web Developer: Carlos Munoz Kampff
+#### Web Developer: Carlos Munoz Kampff and Jayson Potter
 
-#### Website for MMIWUSA non-profit. This is a static page application that will be converted to Wordpress when we get our non-profit hosting and domain.
+#### Website for MMIWUSA non-profit. This is a static page application.
 
 ###To Do List:
 
