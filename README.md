@@ -11,3 +11,5 @@
 |Status|Spec|Page|                
 |------|----|----|
 |TODO| Add initial content to home, mmiw stories, active cases, events, facts & news, and contact & donate pages. | "..." |
+|TODO| Create a mailchimp account for Deborah and add the link to the bottom of index. | Index |
+|TODO| Create a Google Form in Deborahs Google account for family members to submit cases, add the form to the contact page and links to it elsewhere. | Contact & Donate |
